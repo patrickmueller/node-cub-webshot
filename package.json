@@ -31,6 +31,5 @@
   "scripts": {
     "test": "mocha --ui bdd --reporter spec --require should --globals i ./test/tests.js"
   },
-  
-  "directories": {},
+  "directories": {}
 }
