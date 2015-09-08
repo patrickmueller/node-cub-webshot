@@ -1,24 +1,14 @@
 {
-  "name": "webshot",
-  "version": "0.16.0",
-  "description": "Easy website screenshots",
+  "name": "cub-webshot",
+  "version": "0.0.1",
+  "description": "A modiefied Version of Kokoszka's and Whittemore's webshot.",
   "author": {
-    "name": "Brenden Kokoszka"
+    "name": "Cubera Solutions GmbH"
   },
-  "contributors": [
-    {
-      "name": "Brenden Kokoszka",
-      "email": "brenden.kokoszka@gmail.com"
-    },
-    {
-      "name": "Matthew Chase Whittemore",
-      "email": "mcwhittemore@gmail.com"
-    }
-  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/brenden/node-webshot.git"
+    "url": "http://github.com/patrickmueller/node-cub-webshot.git"
   },
   "engine": [
     "node >=0.7.00"
@@ -41,32 +31,6 @@
   "scripts": {
     "test": "mocha --ui bdd --reporter spec --require should --globals i ./test/tests.js"
   },
-  "keywords": [
-    "screenshot",
-    "screengrab"
-  ],
-  "bugs": {
-    "url": "https://github.com/brenden/node-webshot/issues"
-  },
-  "homepage": "https://github.com/brenden/node-webshot",
-  "_id": "webshot@0.16.0",
-  "dist": {
-    "shasum": "d97b5b82d33f528cafd8994d4ccf1a2bebb7781f",
-    "tarball": "http://registry.npmjs.org/webshot/-/webshot-0.16.0.tgz"
-  },
-  "_from": "webshot@>=0.16.0 <0.17.0",
-  "_npmVersion": "1.4.6",
-  "_npmUser": {
-    "name": "bkokoszka",
-    "email": "brenden.kokoszka@gmail.com"
-  },
-  "maintainers": [
-    {
-      "name": "bkokoszka",
-      "email": "bkokoszk@nd.edu"
-    }
-  ],
+  
   "directories": {},
-  "_shasum": "d97b5b82d33f528cafd8994d4ccf1a2bebb7781f",
-  "_resolved": "https://registry.npmjs.org/webshot/-/webshot-0.16.0.tgz"
 }
