@@ -1,0 +1,271 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'update' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 silly mapToRegistry name graceful-fs
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/graceful-fs
+8 silly mapToRegistry name cross-spawn
+9 silly mapToRegistry using default registry
+10 silly mapToRegistry registry https://registry.npmjs.org/
+11 silly mapToRegistry uri https://registry.npmjs.org/cross-spawn
+12 silly mapToRegistry name tmp
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/tmp
+16 silly mapToRegistry name phantomjs
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/phantomjs
+20 silly mapToRegistry name mocha
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/mocha
+24 silly mapToRegistry name should
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/should
+28 verbose request uri https://registry.npmjs.org/graceful-fs
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 16:54:37
+31 verbose request id 1e1101b1645be3d2
+32 verbose etag "C6066J22CBQKU8O1XVDWWWR62"
+33 http request GET https://registry.npmjs.org/graceful-fs
+34 verbose request uri https://registry.npmjs.org/phantomjs
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 16:54:37
+37 verbose etag "S530TAGDZUIT6FUPS7085K74"
+38 http request GET https://registry.npmjs.org/phantomjs
+39 verbose request uri https://registry.npmjs.org/should
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 16:54:37
+42 verbose etag "5PA44LP6HT9ZKOVT92J7VO1EL"
+43 http request GET https://registry.npmjs.org/should
+44 verbose request uri https://registry.npmjs.org/mocha
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 16:54:37
+47 verbose etag "BCCZMOI0SEBIIGPLE0K2RN2TE"
+48 http request GET https://registry.npmjs.org/mocha
+49 verbose request uri https://registry.npmjs.org/tmp
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 16:54:37
+52 verbose etag "8YWLAWQSFU3JU04TNRUWWT2RB"
+53 http request GET https://registry.npmjs.org/tmp
+54 verbose request uri https://registry.npmjs.org/cross-spawn
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 16:54:37
+57 verbose etag "33L4Y9CZMCQK1WD5HM3A75P4K"
+58 http request GET https://registry.npmjs.org/cross-spawn
+59 http 304 https://registry.npmjs.org/phantomjs
+60 silly get cb [ 304,
+60 silly get   { date: 'Mon, 07 Sep 2015 14:54:37 GMT',
+60 silly get     via: '1.1 varnish',
+60 silly get     'cache-control': 'max-age=60',
+60 silly get     etag: '"S530TAGDZUIT6FUPS7085K74"',
+60 silly get     age: '48',
+60 silly get     connection: 'keep-alive',
+60 silly get     'x-served-by': 'cache-fra1235-FRA',
+60 silly get     'x-cache': 'HIT',
+60 silly get     'x-cache-hits': '2',
+60 silly get     'x-timer': 'S1441637677.280248,VS0,VE0',
+60 silly get     vary: 'Accept' } ]
+61 verbose etag https://registry.npmjs.org/phantomjs from cache
+62 verbose get saving phantomjs to /Users/patrick/.npm/registry.npmjs.org/phantomjs/.cache.json
+63 http 304 https://registry.npmjs.org/graceful-fs
+64 silly get cb [ 304,
+64 silly get   { date: 'Mon, 07 Sep 2015 14:54:37 GMT',
+64 silly get     via: '1.1 varnish',
+64 silly get     'cache-control': 'max-age=60',
+64 silly get     etag: '"C6066J22CBQKU8O1XVDWWWR62"',
+64 silly get     age: '0',
+64 silly get     connection: 'keep-alive',
+64 silly get     'x-served-by': 'cache-fra1224-FRA',
+64 silly get     'x-cache': 'HIT',
+64 silly get     'x-cache-hits': '1',
+64 silly get     'x-timer': 'S1441637677.280815,VS0,VE0',
+64 silly get     vary: 'Accept' } ]
+65 verbose etag https://registry.npmjs.org/graceful-fs from cache
+66 verbose get saving graceful-fs to /Users/patrick/.npm/registry.npmjs.org/graceful-fs/.cache.json
+67 http 304 https://registry.npmjs.org/cross-spawn
+68 silly get cb [ 304,
+68 silly get   { date: 'Mon, 07 Sep 2015 14:54:37 GMT',
+68 silly get     via: '1.1 varnish',
+68 silly get     'cache-control': 'max-age=60',
+68 silly get     etag: '"33L4Y9CZMCQK1WD5HM3A75P4K"',
+68 silly get     age: '17',
+68 silly get     connection: 'keep-alive',
+68 silly get     'x-served-by': 'cache-fra1224-FRA',
+68 silly get     'x-cache': 'HIT',
+68 silly get     'x-cache-hits': '1',
+68 silly get     'x-timer': 'S1441637677.280941,VS0,VE0',
+68 silly get     vary: 'Accept' } ]
+69 verbose etag https://registry.npmjs.org/cross-spawn from cache
+70 verbose get saving cross-spawn to /Users/patrick/.npm/registry.npmjs.org/cross-spawn/.cache.json
+71 http 304 https://registry.npmjs.org/should
+72 silly get cb [ 304,
+72 silly get   { date: 'Mon, 07 Sep 2015 14:54:37 GMT',
+72 silly get     via: '1.1 varnish',
+72 silly get     'cache-control': 'max-age=60',
+72 silly get     etag: '"5PA44LP6HT9ZKOVT92J7VO1EL"',
+72 silly get     age: '7',
+72 silly get     connection: 'keep-alive',
+72 silly get     'x-served-by': 'cache-fra1231-FRA',
+72 silly get     'x-cache': 'HIT',
+72 silly get     'x-cache-hits': '1',
+72 silly get     'x-timer': 'S1441637677.280743,VS0,VE1',
+72 silly get     vary: 'Accept' } ]
+73 verbose etag https://registry.npmjs.org/should from cache
+74 verbose get saving should to /Users/patrick/.npm/registry.npmjs.org/should/.cache.json
+75 http 304 https://registry.npmjs.org/mocha
+76 silly get cb [ 304,
+76 silly get   { date: 'Mon, 07 Sep 2015 14:54:37 GMT',
+76 silly get     via: '1.1 varnish',
+76 silly get     'cache-control': 'max-age=60',
+76 silly get     etag: '"BCCZMOI0SEBIIGPLE0K2RN2TE"',
+76 silly get     age: '7',
+76 silly get     connection: 'keep-alive',
+76 silly get     'x-served-by': 'cache-fra1238-FRA',
+76 silly get     'x-cache': 'HIT',
+76 silly get     'x-cache-hits': '1',
+76 silly get     'x-timer': 'S1441637677.283281,VS0,VE0',
+76 silly get     vary: 'Accept' } ]
+77 verbose etag https://registry.npmjs.org/mocha from cache
+78 verbose get saving mocha to /Users/patrick/.npm/registry.npmjs.org/mocha/.cache.json
+79 http 304 https://registry.npmjs.org/tmp
+80 silly get cb [ 304,
+80 silly get   { date: 'Mon, 07 Sep 2015 14:54:37 GMT',
+80 silly get     via: '1.1 varnish',
+80 silly get     'cache-control': 'max-age=60',
+80 silly get     etag: '"8YWLAWQSFU3JU04TNRUWWT2RB"',
+80 silly get     age: '55',
+80 silly get     connection: 'keep-alive',
+80 silly get     'x-served-by': 'cache-fra1238-FRA',
+80 silly get     'x-cache': 'HIT',
+80 silly get     'x-cache-hits': '2',
+80 silly get     'x-timer': 'S1441637677.285029,VS0,VE0',
+80 silly get     vary: 'Accept' } ]
+81 verbose etag https://registry.npmjs.org/tmp from cache
+82 verbose get saving tmp to /Users/patrick/.npm/registry.npmjs.org/tmp/.cache.json
+83 silly cache add args [ 'phantomjs', '~2.0.0' ]
+84 verbose cache add spec phantomjs@~2.0.0
+85 silly cache add parsed spec { raw: 'phantomjs@~2.0.0',
+85 silly cache add   scope: null,
+85 silly cache add   name: 'phantomjs',
+85 silly cache add   rawSpec: '~2.0.0',
+85 silly cache add   spec: '>=2.0.0 <2.1.0',
+85 silly cache add   type: 'range' }
+86 verbose addNamed phantomjs@>=2.0.0 <2.1.0
+87 silly addNamed semver.valid null
+88 silly addNamed semver.validRange >=2.0.0 <2.1.0
+89 silly addNameRange { name: 'phantomjs', range: '>=2.0.0 <2.1.0', hasData: false }
+90 silly mapToRegistry name phantomjs
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/phantomjs
+94 verbose addNameRange registry:https://registry.npmjs.org/phantomjs not in flight; fetching
+95 verbose get https://registry.npmjs.org/phantomjs not expired, no request
+96 silly addNameRange number 2 { name: 'phantomjs', range: '>=2.0.0 <2.1.0', hasData: true }
+97 silly addNameRange versions [ 'phantomjs',
+97 silly addNameRange   [ '0.0.1',
+97 silly addNameRange     '0.0.2',
+97 silly addNameRange     '0.0.3',
+97 silly addNameRange     '0.0.4',
+97 silly addNameRange     '0.0.5',
+97 silly addNameRange     '0.0.6',
+97 silly addNameRange     '0.0.7',
+97 silly addNameRange     '0.0.8',
+97 silly addNameRange     '0.0.9',
+97 silly addNameRange     '0.1.0',
+97 silly addNameRange     '0.1.1',
+97 silly addNameRange     '0.2.0',
+97 silly addNameRange     '0.2.1',
+97 silly addNameRange     '0.2.2',
+97 silly addNameRange     '0.2.3',
+97 silly addNameRange     '0.2.4',
+97 silly addNameRange     '0.2.5',
+97 silly addNameRange     '0.2.6',
+97 silly addNameRange     '1.8.0-1',
+97 silly addNameRange     '1.8.1-1',
+97 silly addNameRange     '1.8.1-2',
+97 silly addNameRange     '1.8.1-3',
+97 silly addNameRange     '1.8.2-0',
+97 silly addNameRange     '1.8.2-1',
+97 silly addNameRange     '1.8.2-2',
+97 silly addNameRange     '1.9.0-0',
+97 silly addNameRange     '1.9.0-1',
+97 silly addNameRange     '1.9.0-2',
+97 silly addNameRange     '1.9.0-3',
+97 silly addNameRange     '1.9.0-4',
+97 silly addNameRange     '1.9.0-5',
+97 silly addNameRange     '1.9.0-6',
+97 silly addNameRange     '1.9.1-0',
+97 silly addNameRange     '1.9.1-2',
+97 silly addNameRange     '1.9.1-3',
+97 silly addNameRange     '1.9.1-4',
+97 silly addNameRange     '1.9.1-5',
+97 silly addNameRange     '1.9.1-6',
+97 silly addNameRange     '1.9.1-7',
+97 silly addNameRange     '1.9.1-8',
+97 silly addNameRange     '1.9.1-9',
+97 silly addNameRange     '1.9.2-0',
+97 silly addNameRange     '1.9.2-1',
+97 silly addNameRange     '1.9.2-2',
+97 silly addNameRange     '1.9.2-3',
+97 silly addNameRange     '1.9.2-4',
+97 silly addNameRange     '1.9.2-5',
+97 silly addNameRange     '1.9.2-6',
+97 silly addNameRange     '1.9.6-0',
+97 silly addNameRange     '1.9.7-1',
+97 silly addNameRange     '1.9.7-3',
+97 silly addNameRange     '1.9.7-4',
+97 silly addNameRange     '1.9.7-5',
+97 silly addNameRange     '1.9.7-6',
+97 silly addNameRange     '1.9.7-7',
+97 silly addNameRange     '1.9.7-8',
+97 silly addNameRange     '1.9.7-9',
+97 silly addNameRange     '1.9.7-10',
+97 silly addNameRange     '1.9.7-11',
+97 silly addNameRange     '1.9.7-12',
+97 silly addNameRange     '1.9.7-13',
+97 silly addNameRange     '1.9.7-14',
+97 silly addNameRange     '1.9.7-15',
+97 silly addNameRange     '1.8.2-3',
+97 silly addNameRange     '1.9.8',
+97 silly addNameRange     '1.9.9',
+97 silly addNameRange     '1.9.10',
+97 silly addNameRange     '1.9.11',
+97 silly addNameRange     '1.9.12',
+97 silly addNameRange     '1.9.13',
+97 silly addNameRange     '1.9.15',
+97 silly addNameRange     '1.9.16',
+97 silly addNameRange     '1.9.17',
+97 silly addNameRange     '1.9.18' ] ]
+98 verbose stack Error: No compatible version found: phantomjs@'>=2.0.0 <2.1.0'
+98 verbose stack Valid install targets:
+98 verbose stack ["0.0.1","0.0.2","0.0.3","0.0.4","0.0.5","0.0.6","0.0.7","0.0.8","0.0.9","0.1.0","0.1.1","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.2.5","0.2.6","1.8.0-1","1.8.1-1","1.8.1-2","1.8.1-3","1.8.2-0","1.8.2-1","1.8.2-2","1.9.0-0","1.9.0-1","1.9.0-2","1.9.0-3","1.9.0-4","1.9.0-5","1.9.0-6","1.9.1-0","1.9.1-2","1.9.1-3","1.9.1-4","1.9.1-5","1.9.1-6","1.9.1-7","1.9.1-8","1.9.1-9","1.9.2-0","1.9.2-1","1.9.2-2","1.9.2-3","1.9.2-4","1.9.2-5","1.9.2-6","1.9.6-0","1.9.7-1","1.9.7-3","1.9.7-4","1.9.7-5","1.9.7-6","1.9.7-7","1.9.7-8","1.9.7-9","1.9.7-10","1.9.7-11","1.9.7-12","1.9.7-13","1.9.7-14","1.9.7-15","1.8.2-3","1.9.8","1.9.9","1.9.10","1.9.11","1.9.12","1.9.13","1.9.15","1.9.16","1.9.17","1.9.18"]
+98 verbose stack
+98 verbose stack     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:259:12)
+98 verbose stack     at next (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:238:17)
+98 verbose stack     at setData (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:215:5)
+98 verbose stack     at RES (/usr/local/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+98 verbose stack     at f (/usr/local/lib/node_modules/npm/node_modules/once/once.js:17:25)
+98 verbose stack     at CachingRegistryClient.get_ (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:125:16)
+98 verbose stack     at /usr/local/lib/node_modules/npm/lib/cache/caching-client.js:91:14
+98 verbose stack     at evalmachine.<anonymous>:334:14
+98 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+98 verbose stack     at FSReqWrap.oncomplete (evalmachine.<anonymous>:95:15)
+99 verbose cwd /Users/patrick/Desktop/gulp/node_modules/gulp-webshot/node_modules/webshot
+100 error Darwin 14.3.0
+101 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "update"
+102 error node v0.12.2
+103 error npm  v2.7.4
+104 error code ETARGET
+105 error notarget No compatible version found: phantomjs@'>=2.0.0 <2.1.0'
+105 error notarget Valid install targets:
+105 error notarget ["0.0.1","0.0.2","0.0.3","0.0.4","0.0.5","0.0.6","0.0.7","0.0.8","0.0.9","0.1.0","0.1.1","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.2.5","0.2.6","1.8.0-1","1.8.1-1","1.8.1-2","1.8.1-3","1.8.2-0","1.8.2-1","1.8.2-2","1.9.0-0","1.9.0-1","1.9.0-2","1.9.0-3","1.9.0-4","1.9.0-5","1.9.0-6","1.9.1-0","1.9.1-2","1.9.1-3","1.9.1-4","1.9.1-5","1.9.1-6","1.9.1-7","1.9.1-8","1.9.1-9","1.9.2-0","1.9.2-1","1.9.2-2","1.9.2-3","1.9.2-4","1.9.2-5","1.9.2-6","1.9.6-0","1.9.7-1","1.9.7-3","1.9.7-4","1.9.7-5","1.9.7-6","1.9.7-7","1.9.7-8","1.9.7-9","1.9.7-10","1.9.7-11","1.9.7-12","1.9.7-13","1.9.7-14","1.9.7-15","1.8.2-3","1.9.8","1.9.9","1.9.10","1.9.11","1.9.12","1.9.13","1.9.15","1.9.16","1.9.17","1.9.18"]
+105 error notarget
+105 error notarget This is most likely not a problem with npm itself.
+105 error notarget In most cases you or one of your dependencies are requesting
+105 error notarget a package version that doesn't exist.
+106 verbose exit [ 1, true ]
